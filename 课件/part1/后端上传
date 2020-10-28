@@ -1,0 +1,32 @@
+1、修改数据库：application/database
+  'hostname'        => 'qdm163903389.my3w.com',
+    // 数据库名
+    'database'        => 'qdm163903389_db',
+    // 用户名
+    'username'        => 'qdm163903389',
+    // 密码
+    'password'        => 'wzm@3983002',
+2、修改配置信息：
+'view_replace_str'       => [
+        '__LAYUI__'=>'/static/layui',
+        '__ADMIN__'=>'/static/admin',
+        '__INDEX__'=>'/static/index',
+        '__PUBLIC__'=>'/static/public',
+        '__UPLOADS__'=>'/uploads',
+        '__UEDITOR__'=>'/ueditor',
+    ],
+  修改成
+    'view_replace_str'       => [
+        '__LAYUI__'=>'/app/public/static/layui',
+        '__ADMIN__'=>'/app/public/static/admin',
+        '__INDEX__'=>'/app/public/static/index',
+        '__PUBLIC__'=>'/app/public/static/public',
+        '__UPLOADS__'=>'/app/public/uploads',
+        '__UEDITOR__'=>'/app/public/ueditor',
+    ],
+
+3、修改后台首页js
+<script src="__ADMIN__/js/index.js" data-main="app/public/static/admin/js/home"></script>
+修改成
+
+<script src="__ADMIN__/js/index.js" data-main="app/public/static/admin/js/home"></script>

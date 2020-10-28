@@ -1,0 +1,21 @@
+
+.status{
+	/* height: var(--status-bar-height); */
+	height: 180rpx;
+	padding-top: var(--status-bar-height);
+	width: 100%;
+	background: #fff;
+}
+.header{height: 180rpx;position: fixed;width: 100%;background: #fff;z-index: 9;
+top:0;padding-top:var(--status-bar-height);}
+.navbar{height: 110rpx;display: -webkit-box;display: -webkit-flex;display: flex;margin:0 20rpx;-webkit-box-align: center;-webkit-align-items: center;align-items: center;
+-webkit-box-pack: justify;
+-webkit-justify-content: space-between;
+        justify-content: space-between;}
+.navbar .search image,.navbar .cart image{width: 30rpx;height: 30rpx;}
+.navbar .logo image{width: 140rpx;height: 30rpx;}
+.menuTab{height:70rpx ;display: -webkit-box;display: -webkit-flex;display: flex;margin:0 20rpx;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;}
+.menuTab .menuTabItem{font-size: 28rpx;color: #000;width: 60rpx;height: 55rpx;line-height: 55rpx;}
+.menuTab .menuTabItem.menuActive{color: #0bbbef;border-bottom: 1rpx solid #0bbbef;}
+.headerEmpty{}
+

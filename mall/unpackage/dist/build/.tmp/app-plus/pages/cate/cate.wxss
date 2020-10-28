@@ -1,0 +1,35 @@
+
+page{background: #f7f7f7;}
+.search{height: 110rpx;width: 100%;background: #fff;display: -webkit-box;display: -webkit-flex;display: flex;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+        justify-content: center;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.searchBox{width: 690rpx;height: 70rpx;border-radius: 10rpx;
+font-size: 28rpx;color: #999;background: #f7f7f7;}
+.searchBox navigator{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;align-items: center;
+height: 70rpx;}
+.searchBox image{width: 38rpx;height: 38rpx;margin-right: 12rpx;}
+.cate{position: absolute;top:120rpx;bottom:0;width: 100%;
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;}
+.cateleft{width: 200rpx;background: #f7f7f7;height: 100%;}
+.cateNameList{height: 100%;overflow: auto;}
+.cateRightList{height: auto;overflow: hidden;}
+.cateNameItem{font-size: 28rpx;color: #000;
+line-height: 100rpx;text-align: center;position:relative}
+.cateActive{background: #fff;}
+.cateLine{position: absolute;width: 4rpx;height: 30rpx;background: #f7f7f7;
+top:35rpx;}
+.cateActive .cateLine{background: #10b6e8;}
+.cateright{width:550rpx ;background: #fff;height: 100%;}
+.cateRightScroll{height: 100%;overflow: auto;}
+.caterightTitle{line-height: 86rpx;padding-top: 16rpx;color: #999;font-size: 28rpx;
+text-align: center;}
+.caterightTitle text{padding:0 30rpx}
+.cateRightItem{width: 33.33%;float:left;margin-top:20rpx;}
+.cateRightItem image{width: 160rpx;height: 160rpx;display: block;margin:0 auto;}
+.cateRightItem text{line-height: 36rpx;font-size: 24rpx;
+text-align: center;display: block;width: 100%;overflow: hidden;
+text-overflow: ellipsis;white-space: nowrap;}
+

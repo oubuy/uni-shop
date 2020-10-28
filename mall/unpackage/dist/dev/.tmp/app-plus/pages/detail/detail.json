@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "detail-service": "/components/detailService",
+    "detail-attr": "/components/detailAttr",
+    "index-swiper": "/components/indexSwiper",
+    "parse": "/components/gaoyia-parse/parse"
+  }
+}

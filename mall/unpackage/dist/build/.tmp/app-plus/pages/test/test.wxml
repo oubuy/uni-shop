@@ -1,0 +1,1 @@
+<view><button type="primary" data-event-opts="{{[['tap',[['buy',['$event']]]]]}}" bindtap="__e">立即下单</button></view>

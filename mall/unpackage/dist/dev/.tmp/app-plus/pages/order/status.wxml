@@ -1,0 +1,1 @@
+<view><image class="statusImg" src="../../static/image/success.png" mode></image><view class="payStatus">支付成功</view><view class="payTip">支付成功后商家会尽快发货</view><view class="payTip">请小主人耐心等待哟~</view><view class="statusBtn"><view class="statausOrder">查看订单</view><view class="statusIndex">回到首页</view></view></view>

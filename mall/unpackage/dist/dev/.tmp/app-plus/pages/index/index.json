@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "英特网络",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-header": "/components/header",
+    "index-swiper": "/components/indexSwiper",
+    "index-service": "/components/indexService",
+    "index-a-d": "/components/indexAD",
+    "title": "/components/title",
+    "shop-list": "/components/shopList",
+    "index-table": "/components/indexTable"
+  }
+}

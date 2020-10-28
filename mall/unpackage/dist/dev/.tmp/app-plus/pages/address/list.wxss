@@ -1,0 +1,16 @@
+
+.empty image{width: 330rpx;height: 210rpx;display: block;margin: 200rpx auto 0;}
+.empty text{font-size: 24rpx;color: #999;line-height: 80rpx;text-align: center;
+display: block;}
+.addressItem{padding:0 35rpx;width: 100%;
+	border-bottom: 1rpx solid #e5e5e5;}
+.addressMain{line-height: 40rpx;font-size: 28rpx;padding-top: 30rpx;}
+.addressMain .telphone{padding: 0 20rpx 0 10rpx;}
+.addressMain .default{background: #1fc8f2;color: #fff;font-size: 20rpx
+	;padding:0 10rpx;}
+.addressInfo{font-size: 24rpx;line-height: 36rpx;
+	color: #999;padding-bottom: 36rpx;}
+.addBtn{height: 90rpx;position: fixed;bottom: 0;width: 100%;left:0;
+	background: #0bbbef;color: #fff;text-align: center;line-height: 90rpx;
+	font-size: 28rpx;}
+

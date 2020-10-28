@@ -1,0 +1,2 @@
+setCssToHead(["body{background: #f4f4f4;}\n.",[1],"adImg{height: ",[0,344],";width: 100%;}\n.",[1],"adImg wx-image{width: 100%;height: ",[0,344],";}\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

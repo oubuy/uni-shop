@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/detail/detail",
+    "pages/test/test",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/member/member",
+    "pages/address/list",
+    "pages/address/add",
+    "pages/address/edit",
+    "pages/order/order",
+    "pages/order/pay",
+    "pages/order/status",
+    "pages/cart/cart",
+    "pages/member/orderlist",
+    "pages/member/orderdetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#00b4ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar1.png",
+        "selectedIconPath": "static/tabbar1-1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "iconPath": "static/tabbar2.png",
+        "selectedIconPath": "static/tabbar2-1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar3.png",
+        "selectedIconPath": "static/tabbar3-1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/tabbar4.png",
+        "selectedIconPath": "static/tabbar4-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "mall",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

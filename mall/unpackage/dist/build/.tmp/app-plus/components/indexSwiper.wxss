@@ -1,0 +1,4 @@
+
+.swiper{width: 100%;}
+.swiper image{display: block;margin:0 auto}
+

@@ -1,0 +1,16 @@
+
+.logo{height: 250rpx;width: 250rpx;margin:110rpx auto 30rpx;
+display: block;}
+.formItem{height: 74rpx;padding-top: 36rpx;border-bottom: 1rpx solid #e5e5e5;
+margin:0 100rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.formItem input{font-size: 28rpx;}
+.loginBtn{height: 86rpx;margin:0 100rpx;color: #fff;
+background: #23baef;text-align: center;line-height: 86rpx;
+font-size: 28rpx;margin-top: 60rpx;}
+.loginNav{height: 120rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+        justify-content: center;font-size: 24rpx;}
+.loginNav text{padding:0 20rpx;}
+.loginRegister{color: #23BAEF;}
+
